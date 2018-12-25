@@ -21,3 +21,6 @@ const firstMod1 = require("./primeiro-modulo");
 const firstMod2 = require("./primeiro-modulo");
 
 console.log(firstMod1 === firstMod2);
+
+firstMod1.set('testing singleton');
+console.log(firstMod2.get());
